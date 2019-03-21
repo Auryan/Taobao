@@ -1,0 +1,28 @@
+.mainHeaderNfooter{
+    background-color: gainsboro;
+    font-size: 12px;
+    font-family: "Arial";
+}
+
+.mainHeaderNfooter>a{
+    padding: 3px 10px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.dropdownBox:hover{
+    background-color: white;
+}
+.dropdownBox:hover a{
+    background-color: white;
+
+}
+.dropdownBox:hover .hidenitem{
+    display: block;
+    background-color: white;
+}
+
+.rightHandSide{
+    float: right;
+
+}

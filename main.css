@@ -5,5 +5,29 @@
     font-size: 14px;
     background-color: gainsboro;
 
+}
+
+div{
     border: red 1px solid;
+    /*position: absolute;*/
+    margin: 5px;
+    /*height: 50px;*/
+}
+
+li{
+    list-style-type: none;
+    background-color: white;
+}
+
+.dropdownBox{
+    display: inline-block;
+    position: relative;
+}
+
+.hidenitem{
+    display: none;
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+    width: 90px;
 }
