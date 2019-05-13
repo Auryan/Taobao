@@ -10,6 +10,16 @@ body{
 
 }
 
+/*@font-face {*/
+    /*font-family: 'iconfont';*/
+    /*src: url('./fontstyles/iconfont.eot');*/
+    /*src: url('./fontstyles/iconfont.eot?#iefix') format('embedded-opentype'),*/
+    /*url('./fontstyles/iconfont.woff2') format('woff2'),*/
+    /*url('./fontstyles/iconfont.woff') format('woff'),*/
+    /*url('./fontstyles/iconfont.ttf') format('truetype'),*/
+    /*url('./fontstyles/iconfont.svg#iconfont') format('svg');*/
+/*}*/
+
 @font-face {
     font-family: 'iconfont';
     src: url('./fontstyles/iconfont.eot');

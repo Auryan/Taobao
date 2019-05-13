@@ -38,9 +38,10 @@
 .nav-hd li{
     float: left;
     position: relative;
-    margin: 0 3px;
+    margin: 0 7px;
     padding: 0 4px;
     background-color: transparent;
+
 }
 
 
@@ -59,6 +60,40 @@
     position: relative;
     float: left;
     background-color: transparent;
+    margin-right: 7px;
     /*letter-spacing: 5px;*/
 
 }
+
+.service{
+    height: 522px;
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    width: 190px;
+    background-color: transparent;
+
+}
+
+.service-bd{
+    border: 1px solid #ff5000;
+    border-top: none;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    list-style: none;
+    background-color: transparent;
+}
+
+.service-bd li{
+    color: #666;
+    line-height: 32px;
+    height: 32px;
+    padding-left: 25px;
+    padding-right: 19px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    width: 145px;
+}
+
+
