@@ -1,6 +1,9 @@
 .fixedHeader{
     background-color: white;
-    width: 100%;
+    width: 1190px;
+    height: 119px;
+    padding-top: 24px;
+    margin: 0 auto;
     /*position: fixed;*/
     /*display: block;*/
     /*top: 0px;*/
@@ -38,26 +41,40 @@
 .searchBarContainer{
     vertical-align: middle;
     display: inline-block;
-    width: 630px;
+    width: 650px;
     height: 40px;
+    margin-left: 8px;
+
 
     /*margin-left: 258px;*/
     /*margin-right: 302px;*/
     /*height: 30px;*/
 }
 
+.search-hots-fline{
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.search-hots-fline>a{
+    white-space: nowrap;
+    color: #3C3C3C;
+}
+
 .searchBoxContainer{
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 30px 0 0 30px;
     border: #ff5000 solid 2px;
     height: 36px;
     width: 554px;
+    display: inline-block;
 
 }
 
 .searchButton{
     position: absolute;
     display: inline-block;
-    width: 74px;
+    width: 72px;
     height: 40px;
     text-align: center;
     /*border-top-right-radius: 20px;*/

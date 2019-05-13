@@ -6,6 +6,8 @@
 body{
     margin: 0;
     font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    background-color: #F4F4F4;
+
 }
 
 @font-face {
@@ -20,14 +22,20 @@ body{
 
 .container {
     margin: 0 auto;
-    background-color: #f5f5f5;
     width: 1190px;
 }
 
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+}
+
 div{
-    border: red 1px solid;
+    /*border: red 1px solid;*/
+    /*margin: 1px;*/
+
     /*position: absolute;*/
-    /*margin: 5px;*/
     /*height: 50px;*/
 }
 
